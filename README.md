@@ -20,11 +20,11 @@ Done. Ready to work.
 ~~~~
 
 ### installation and usage
-> -Open the terminal   
-> -Go to your proyect (the one you want to upload) folder   
-> -Copy and paste: git clone https://github.com/victorFernandezF/Gity.git    
-> -Go to Gity folder   
-> -Copy ./gity "[Your_message]"   
+> - Open the terminal   
+> - Go to your proyect (the one you want to upload) folder   
+> - Copy and paste: git clone https://github.com/victorFernandezF/Gity.git    
+> - Go to Gity folder   
+> - Copy ./gity "[Your_message]"   
 
 ### Curiosity
 This project has been uploaded by Gity.
@@ -53,11 +53,11 @@ Listo para ayudar.
 ~~~~
 
 ### installation and usage
-> Abra una terminal
-> Dirijase al directorio del proyecto que desea subir (obviamente debe ser un repositorio de git)
-> Clone el repo de Gity de la siguiente manera: git clone https://github.com/victorFernandezF/Gity.git 
-> Vaya al directorio de Gity
-> Ejecute: ./gity "[Your_message]"
+> - Abra una terminal   
+> - Dirijase al directorio del proyecto que desea subir (obviamente debe ser un repositorio de git)   
+> - Clone el repo de Gity de la siguiente manera: git clone https://github.com/victorFernandezF/Gity.git    
+> - Vaya al directorio de Gity   
+> - Ejecute: ./gity "[Your_message]"   
 
 ### Curiosidad
 Este projecto ha sido subido a este repositorio por Gity.
