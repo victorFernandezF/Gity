@@ -33,7 +33,7 @@ This project has been uploaded by Gity.
 
 ## Información [:gb:]
 ### Descripción
-Que es Gity?
+##### What is Gity?
 Gity es un pequeño programa diseñado para hacerte la vida un poco más sencilla.
 Hasta ahora si queriamos subir todos los archivos a un repositorio, teníamos que ejecutar tres comandos (git add ., git commit..., git push). Eso es muy trabajoso ¿verdad?
 Pues dejemosle el trabajo a Gity. Nosotros solo tendremos que llamarle y pasarle un mensaje para el commit, lo demás, trabajo suyo.
