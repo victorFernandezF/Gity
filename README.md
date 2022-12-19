@@ -31,7 +31,7 @@ This project has been uploaded by Gity.
 
 <hr/>
 
-## Información [:gb:]
+## Información [:es:]
 ### Descripción
 ##### What is Gity?
 Gity es un pequeño programa diseñado para hacerte la vida un poco más sencilla.
