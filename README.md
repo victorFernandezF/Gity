@@ -19,7 +19,7 @@ Done. Ready to work.
   git clone https://github.com/victorFernandezF/Gity.git    
 ~~~~
 
-### installation and usage
+### Installation and usage
 > - Open the terminal   
 > - Go to your proyect (the one you want to upload) folder   
 > - Copy and paste: git clone https://github.com/victorFernandezF/Gity.git    
@@ -47,12 +47,12 @@ languaje: C
 ### Estado
 Listo para ayudar.
 
-### Clone Repository
+### Clonar Repositorio
 ~~~~
   git clone https://github.com/victorFernandezF/Gity.git    
 ~~~~
 
-### installation and usage
+### Instalación y cómo usar
 > - Abra una terminal   
 > - Dirijase al directorio del proyecto que desea subir (obviamente debe ser un repositorio de git)   
 > - Clone el repo de Gity de la siguiente manera: git clone https://github.com/victorFernandezF/Gity.git    
