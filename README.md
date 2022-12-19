@@ -19,60 +19,45 @@ Done. Ready to work.
   git clone https://github.com/victorFernandezF/Gity.git    
 ~~~~
 
-### installation
+### installation and usage
 > Open the terminal
 > Go to your proyect (the one you want to upload) folder
 > Copy and paste: git clone https://github.com/victorFernandezF/Gity.git 
 > go to Gity folder
-> Copy ./gity <"Your_message">
+> Copy ./gity "[Your_message]"
 
-### Usage
-> Little description of how to use the project.
-
-### Image
-
-<img src="" alt="Rock Paper Scisor" width="300px"/>
-
-### CREDITS
-Credits if needed.
-~~~~
-links
-~~~~
+### Curiosity
+This project has been uploaded by Gity.
 
 <hr/>
 
-## Informacion [:es:]
+## Información [:gb:]
 ### Descripción
-Pequeña descripcion del proyecto.
+Que es Gity?
+Gity es un pequeño programa diseñado para hacerte la vida un poco más sencilla.
+Hasta ahora si queriamos subir todos los archivos a un repositorio, teníamos que ejecutar tres comandos (git add ., git commit..., git push). Eso es muy trabajoso ¿verdad?
+Pues dejemosle el trabajo a Gity. Nosotros solo tendremos que llamarle y pasarle un mensaje para el commit, lo demás, trabajo suyo.
 
-### Tecnologías usadas
-Lenguajes o tecnologías utlizads.
+IMPORTANTE: Gity solo está capacitado para subir todos los archivos del directorio en el que se encuentre (git add .)
+Si queremos subir únicamente algunos archivos específicos, deberemos hacerlo manualmente.
+
+### Tecnologias
+languaje: C  
 
 ### Estado
-Terminado / en proceso ...
+Listo para ayudar.
 
-### Clonar Repositorio
+### Clone Repository
 ~~~~
-  git clone <url>   
-~~~~
-
-### instalación
-> Como se instala
-
-### ¿Cómo usar?
-> Como se usa
-
-### Imagen
-
-<img src="" alt="Rock Paper Scisor" width="300px"/>
-
-### CREDITOS
-Creditos si fuese necesario.
-~~~~
-Enlaces
+  git clone https://github.com/victorFernandezF/Gity.git    
 ~~~~
 
-void checkleaks()
-{
-    system("leaks a.out");
-}
+### installation and usage
+> Abra una terminal
+> Dirijase al directorio del proyecto que desea subir (obviamente debe ser un repositorio de git)
+> Clone el repo de Gity de la siguiente manera: git clone https://github.com/victorFernandezF/Gity.git 
+> Vaya al directorio de Gity
+> Ejecute: ./gity "[Your_message]"
+
+### Curiosidad
+Este projecto ha sido subido a este repositorio por Gity.
