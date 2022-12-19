@@ -1,7 +1,7 @@
 # :paperclip: GITY
 ## Info [:gb:]
 ### Description
-What is Gity?
+##### What is Gity?
 Gity is a little C program designed to upload things to a Github repo for you.
 So instead of write trhee commands (git add ., git commit..., git push)
 We only have to call Gity and tell them a commit message and it will do the hard work.
