@@ -20,11 +20,11 @@ Done. Ready to work.
 ~~~~
 
 ### installation and usage
-> Open the terminal
-> Go to your proyect (the one you want to upload) folder
-> Copy and paste: git clone https://github.com/victorFernandezF/Gity.git 
-> go to Gity folder
-> Copy ./gity "[Your_message]"
+> Open the terminal   
+> Go to your proyect (the one you want to upload) folder   
+> Copy and paste: git clone https://github.com/victorFernandezF/Gity.git    
+> go to Gity folder   
+> Copy ./gity "[Your_message]"   
 
 ### Curiosity
 This project has been uploaded by Gity.
