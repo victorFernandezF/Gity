@@ -6,7 +6,7 @@
 /*   By: victofer <victofer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 12:43:48 by victofer          #+#    #+#             */
-/*   Updated: 2022/12/20 11:46:15 by victofer         ###   ########.fr       */
+/*   Updated: 2022/12/20 12:23:06 by victofer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 
 void	errors(char *msg)
 {
-	printf("ERROR:\n%s", msg);
+	printf("ERROR: %s", msg);
 	exit(-1);
 }
 
@@ -60,12 +60,16 @@ char	*ft_strjoin(char *s1, char *s2)
 
 void	make_command(char *commit, char *command)
 {
-	system("cd ..");
+	chdir("..");
+	printf("\033[0;33m* git add . \033[0;37m\n");
 	system("git add .");
-	system("git status");
-	//system(command);
-	//system("git push");
-	//system("cd ./Gity");
+	printf("\033[0;33m* %s \033[0;37m\n", command);
+	if (system(command) == 0)
+	{
+		system(command);
+		printf("\033[0;33m* git push \033[0;37m\n");
+		system("git push");
+	}
 }
 
 int	main(int argc, char **argv)
