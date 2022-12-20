@@ -8,6 +8,8 @@ We only have to call Gity and tell them a commit message and it will do the hard
 
 IMPORTANT: It is designed to upload all files( git add .). If you want to upload some specific files only, you must do it the handly.
 
+ADVICE: It would be a great idea to create a .gitignore file in your repository and add the Gity directory to .gitignore. Becouse if you clone Gity, Gity directory is a new repo and that may couse problems.
+
 ### Technologies
 language: C  
 
@@ -40,6 +42,8 @@ Pues dejemosle el trabajo a Gity. Nosotros solo tendremos que llamarle y pasarle
 
 IMPORTANTE: Gity solo está capacitado para subir todos los archivos del directorio en el que se encuentre (git add .)
 Si queremos subir únicamente algunos archivos específicos, deberemos hacerlo manualmente.
+
+CONSEJITO: Es una idea estupenda crear un archivo .gitignore en su repositorio y añadir el directorio Gity a él. Si ha clonado el repositorio de Gity tal y como se menciona anteriormente, ese directorio es un repositorio y esto puede causar problemas a la hora de hacer push.
 
 ### Tecnologias
 languaje: C  
