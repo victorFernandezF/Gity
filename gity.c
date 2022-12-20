@@ -6,7 +6,7 @@
 /*   By: victofer <victofer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 12:43:48 by victofer          #+#    #+#             */
-/*   Updated: 2022/12/19 18:28:09 by victofer         ###   ########.fr       */
+/*   Updated: 2022/12/20 11:46:15 by victofer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,9 +62,10 @@ void	make_command(char *commit, char *command)
 {
 	system("cd ..");
 	system("git add .");
-	system(command);
-	system("git push");
-	system("cd ./Gity");
+	system("git status");
+	//system(command);
+	//system("git push");
+	//system("cd ./Gity");
 }
 
 int	main(int argc, char **argv)
